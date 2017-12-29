@@ -29,7 +29,7 @@ Get a list of all code pages via the `#all` method:
 CodePages.all  # => { 37 => #<CodePages::CodePage:0x00007fb23d1c92c8 @id=37 ... >, ... }
 ```
 
-Once you have a code page, a mapping of code page characters to Unicode characters can be obtained via the `#unicode_mapping` method:
+Once you have a code page, a mapping of code page characters to Unicode code points can be obtained via the `#unicode_mapping` method:
 
 ```ruby
 CodePages[37].unicode_mapping  # => { 0=>0, 1=>1, 2=>2, 3=>3, 4=>156, 5=>9, ... }
