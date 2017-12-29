@@ -23,6 +23,12 @@ Individual code pages can be accessed directly via the `CodePages` constant:
 CodePages[37]  # => #<CodePages::CodePage:0x00007fcd1c374dd0 @id=37 ... >
 ```
 
+Get a list of all code pages via the `#all` method:
+
+```ruby
+CodePages.all  # => { 37 => #<CodePages::CodePage:0x00007fb23d1c92c8 @id=37 ... >, ... }
+```
+
 Once you have a code page, a mapping of code page characters to Unicode characters can be obtained via the `#unicode_mapping` method:
 
 ```ruby
