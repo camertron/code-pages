@@ -14,9 +14,26 @@ describe CodePages::CodePage do
     end
   end
 
+  describe '#code_page_mapping' do
+    subject { code_page.code_page_mapping }
+
+    it 'maps unicode code points to code page characters' do
+      expect(subject[156]).to eq(4)
+      expect(subject[204]).to eq(120)
+      expect(subject[50]).to eq(242)
+      expect(subject[159]).to eq(255)
+    end
+  end
+
   describe '#to_utf8' do
     it 'converts the given string from the code page to utf8' do
       expect(code_page.to_utf8('abc')).to eq('/ÂÄ')
+    end
+  end
+
+  describe '#from_utf8' do
+    it 'converts the given string from the code page to utf8' do
+      expect(code_page.from_utf8('/ÂÄ')).to eq('abc')
     end
   end
 end
