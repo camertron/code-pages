@@ -16,7 +16,7 @@ module CodePages
 
     def import
       manifest.each do |props|
-        STDOUT.write("Importing #{props['code_page']}... ")
+        STDOUT.write("Importing #{props['name']}... ")
         import_code_page(props)
         puts 'done.'
       end
@@ -25,7 +25,7 @@ module CodePages
     private
 
     def import_code_page(props)
-      output_file = File.join(output_path, "#{props['code_page']}.yml")
+      output_file = File.join(output_path, "#{props['name']}.yml")
       code_page = get_code_page(props['url'])
       File.write(output_file, YAML.dump(code_page))
     end

@@ -21,6 +21,19 @@ describe CodePages do
     end
   end
 
+  describe '#supported_names' do
+    subject { described_class.supported_names }
+
+    it 'rerieves a list of all available code page ids' do
+      expect(subject.all? { |id| id.is_a?(String) }).to eq(true)
+      expect(subject).to include('cp875')
+      expect(subject).to include('cp860')
+      expect(subject).to include('cp1251')
+      expect(subject).to include('shift_jis')
+      expect(subject).to include('apple_hebrew')
+    end
+  end
+
   describe '#supports?' do
     it 'returns true if the code page is supported' do
       expect(described_class.supports?(28605)).to eq(true)
@@ -41,9 +54,10 @@ describe CodePages do
     end
 
     it 'includes certain code pages' do
-      expect(subject).to include(950)
-      expect(subject).to include(47451)
-      expect(subject).to include(1258)
+      expect(subject).to include('cp950')
+      expect(subject).to include('cp1250')
+      expect(subject).to include('mac_roman')
+      expect(subject).to include('apple_cyrillic')
     end
   end
 end

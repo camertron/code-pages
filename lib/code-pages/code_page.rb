@@ -2,10 +2,11 @@ require 'yaml'
 
 module CodePages
   class CodePage
-    attr_reader :id, :resource_file
+    attr_reader :id, :name, :resource_file
 
-    def initialize(id, resource_file)
+    def initialize(id, name, resource_file)
       @id = id
+      @name = name
       @resource_file = resource_file
     end
 

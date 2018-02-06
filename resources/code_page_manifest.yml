@@ -1,110 +1,229 @@
 - code_page: 37
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/EBCDIC/CP037.TXT
+  name: cp037
 - code_page: 437
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP437.TXT
+  name: cp437
 - code_page: 500
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/EBCDIC/CP500.TXT
+  name: cp500
 - code_page: 737
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP737.TXT
+  name: cp737
 - code_page: 775
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP775.TXT
+  name: cp775
 - code_page: 850
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP850.TXT
+  name: cp850
 - code_page: 852
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP852.TXT
+  name: cp852
 - code_page: 855
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP855.TXT
+  name: cp855
 - code_page: 857
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP857.TXT
+  name: cp857
 - code_page: 860
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP860.TXT
+  name: cp860
 - code_page: 861
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP861.TXT
+  name: cp861
 - code_page: 862
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP862.TXT
+  name: cp862
 - code_page: 863
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP863.TXT
+  name: cp863
 - code_page: 864
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP864.TXT
+  name: cp864
 - code_page: 865
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP865.TXT
+  name: cp865
 - code_page: 866
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP866.TXT
+  name: cp866
 - code_page: 869
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP869.TXT
+  name: cp869
 - code_page: 874
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP874.TXT
+  name: cp874
 - code_page: 875
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/EBCDIC/CP875.TXT
+  name: cp875
 - code_page: 932
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP932.TXT
+  name: cp932
 - code_page: 936
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP936.TXT
+  name: cp936
 - code_page: 949
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP949.TXT
+  name: cp949
 - code_page: 950
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT
+  name: cp950
 - code_page: 1026
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/EBCDIC/CP1026.TXT
+  name: cp1026
 - code_page: 1250
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1250.TXT
+  name: cp1250
 - code_page: 1251
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1251.TXT
+  name: cp1251
 - code_page: 1252
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1252.TXT
+  name: cp1252
 - code_page: 1253
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1253.TXT
+  name: cp1253
 - code_page: 1254
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1254.TXT
+  name: cp1254
 - code_page: 1255
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1255.TXT
+  name: cp1255
 - code_page: 1256
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1256.TXT
+  name: cp1256
 - code_page: 1257
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1257.TXT
+  name: cp1257
 - code_page: 1258
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1258.TXT
+  name: cp1258
 - code_page: 47451
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MISC/ATARIST.TXT
+  name: atarist
 - code_page: 10000
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/ROMAN.TXT
+  name: mac_roman
 - code_page: 10006
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/GREEK.TXT
+  name: mac_greek
 - code_page: 10007
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/CYRILLIC.TXT
+  name: mac_cyrillic
 - code_page: 10029
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/LATIN2.TXT
+  name: mac_latin2
 - code_page: 10079
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/ICELAND.TXT
+  name: mac_iceland
 - code_page: 10081
   url: http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/MAC/TURKISH.TXT
+  name: mac_turkish
 - code_page: 28591
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-1.TXT
+  name: iso8859_1
 - code_page: 28592
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-2.TXT
+  name: iso8859_2
 - code_page: 28593
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-3.TXT
+  name: iso8859_3
 - code_page: 28594
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-4.TXT
+  name: iso8859_4
 - code_page: 28595
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-5.TXT
+  name: iso8859_5
 - code_page: 28596
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-6.TXT
+  name: iso8859_6
 - code_page: 28597
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-7.TXT
+  name: iso8859_7
 - code_page: 28598
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-8.TXT
+  name: iso8859_8
 - code_page: 28599
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-9.TXT
+  name: iso8859_9
 - code_page: 28600
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-10.TXT
+  name: iso8859_10
 - code_page: 28601
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-11.TXT
+  name: iso8859_11
 - code_page: 28603
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-13.TXT
+  name: iso8859_13
 - code_page: 28604
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-14.TXT
+  name: iso8859_14
 - code_page: 28605
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-15.TXT
+  name: iso8859_15
 - code_page: 28606
   url: http://www.unicode.org/Public/MAPPINGS/ISO8859/8859-16.TXT
+  name: iso8859_16
+
+- url: http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/SHIFTJIS.TXT
+  name: shift_jis
+- url: http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/OTHER/BIG5.TXT
+  name: big5
+- url: http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/KSC/JOHAB.TXT
+  name: johab
+- url: http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/KSC/OLD5601.TXT
+  name: wansung
+
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ARABIC.TXT
+  name: apple_arabic
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CELTIC.TXT
+  name: apple_celtic
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CENTEURO.TXT
+  name: apple_central_europe
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CHINSIMP.TXT
+  name: apple_simplified_chinese
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CHINTRAD.TXT
+  name: apple_traditional_chinese
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CORPCHAR.TXT
+  name: apple_corpchar
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CROATIAN.TXT
+  name: apple_croatian
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CYRILLIC.TXT
+  name: apple_cyrillic
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/DEVANAGA.TXT
+  name: apple_devanagari
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/DINGBATS.TXT
+  name: apple_dingbats
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/FARSI.TXT
+  name: apple_farsi
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GAELIC.TXT
+  name: apple_gaelic
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GREEK.TXT
+  name: apple_greek
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GUJARATI.TXT
+  name: apple_gujarati
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GURMUKHI.TXT
+  name: apple_gurmukhi
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/HEBREW.TXT
+  name: apple_hebrew
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ICELAND.TXT
+  name: apple_iceland
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/INUIT.TXT
+  name: apple_inuit
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/JAPANESE.TXT
+  name: apple_japanese
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/KEYBOARD.TXT
+  name: apple_keyboard
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/KOREAN.TXT
+  name: apple_korean
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ROMAN.TXT
+  name: apple_roman
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ROMANIAN.TXT
+  name: apple_romanian
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/SYMBOL.TXT
+  name: apple_symbol
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/THAI.TXT
+  name: apple_thai
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/TURKISH.TXT
+  name: apple_turkish
+- url: http://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/UKRAINE.TXT
+  name: apple_ukraine
